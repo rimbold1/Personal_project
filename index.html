@@ -5,57 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
     <title>WeDo</title>
 </head>
 <body>
-    <div class="container">    
-        <header class="container-header">
-            <h1><a href="#services-heading">WeDo</a></h1>
-            <nav>
-                <ul>
-                    <li><a href="#services-heading">послуги</a></li>
-                    <li><a href="#portfolio">портфоліо</a></li>
-                    <li><a href="#our-team">про нас</a></li>
-                    <li><a href="#contacts">контакти</a></li>
-                </ul>
-            </nav>
-            <form>
-                <input type="submit" value="Увійти"/>
-            </form>
+        <header class="header-bar">
+                <h1><a href="#services-heading">WeDo</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="#services-heading">послуги</a></li>
+                        <li><a href="#portfolio">портфоліо</a></li>
+                        <li><a href="#our-team">про нас</a></li>
+                        <li><a href="#contacts">контакти</a></li>
+                    </ul>
+                </nav>
+                <form>
+                    <input type="submit" value="Увійти"/>
+                </form>
         </header>
         <main>
-            <section class="intro">
-                <h2>наша компанія спеціалізується на розробці сайтів візиток, landing page та інтернет магазинів.</h2>
-                <a href="#services-heading">Детальніше</a>
+            <section class="intro-bar">
+                    <h2>наша компанія спеціалізується на розробці<br>
+                    сайтів візиток, landing page та інтернет магазинів.</h2>
+                    <a href="#services-heading">Детальніше</a>
             </section>
             <!-- Services part -->
-            <section>
-                <h2 id="services-heading">наші послуги</h2>
+            <section class="services-bar">
+                <h2 id="services-heading" class="headings">наші послуги</h2>
                 <section>
                         <img src="img/landingPage.png" alt="landing page">
-                        <h3>Landing page</h3>
+                        <h3 class="lower-headings">Landing page</h3>
                         <p>Створення продающих сайтів. Легкий функціонал, збір статистики та аналіз.</p>
                 </section>
                 <section>
                         <img src="img/visitPage.png" alt="Сайт візитка">
-                        <h3>Сайт візитка</h3>
+                        <h3 class="lower-headings">Сайт візитка</h3>
                         <p> Красиві, стильні та сучасні сайти - зручні в користуванні та швидкі як на звичайних комп’ютерах, так і на мобільних пристроях</p>
                 </section>
                 <section>
                         <img src="img/internetShop.png" alt="Інтернет магазин">
-                        <h3>Інтернет магазин</h3>
+                        <h3 class="lower-headings">Інтернет магазин</h3>
                         <p>Будь-якої складності з нуля — написання технічного завдання, розробка архітектури, дизайн, верстка, програмування, наповнення/парсинг товарами.</p>
                 </section>
                 <section>
                         <img src="img/adaptiveDesign.png" alt="Адаптивний дизайн">
-                        <h3>Адаптивний дизайн</h3>
+                        <h3 class="lower-headings">Адаптивний дизайн</h3>
                         <p>Зручний перегляд сайту на мобільних пристроях - запорука успіху для мобільних користувачів. Робимо вже існуючі сайти мобільними.</p>
                 </section>
                 <a href="#contacts">Замовити</a>
             </section>
             <!-- Portfolio part -->
-            <section>
-                <h2 id="portfolio">наші роботи</h2>
+            <section class="portfoliob-bar">
+                <h2 id="portfolio" class="headings">наші роботи</h2>
                 <div>
                     <section>
                         <h4>Ім'я проекту</h4>
@@ -83,19 +84,19 @@
             </section>
             <!-- Quote bar -->
             <div>
-                <section>
+                <section class="quote-bar">
                     <blockquote>
                         <p>"Немає нічого більш злочинного, ніж придумати гарну ідею і не реалізувати її"</p>
                     </blockquote>
                     <figure>
-                        <img src="img/trump.jpg" alt="Дональд Трамп" />
+                        <img src="img/trump.jpg" alt="Дональд Трамп" class="trump-icon">
                         <figcaption>Дональд Трамп</figcaption>
                     </figure>
                 </section>
             </div>
             <!-- About us part -->
-            <section>
-                <h2 id="our-team">наша команда</h2>
+            <section class="about-bar">
+                <h2 id="our-team" class="headings">наша команда</h2>
                 <div>
                     <img src="img/nykolyshyn-volodymyr.jpg" alt="Николишин Володимир" class="team-images">
                     <h4>Николишин Володимир</h4>
@@ -113,15 +114,15 @@
                 </div>
             </section>
             <!-- Subscribe bar -->
-            <section>
+            <section class="subscribe-bar">
                 <form action="https://formspree.io/ivivzu2@gmail.com" method="POST">
                     <input type="email" name="_replyto" placeholder="введіть свій e-mail">
                     <input type="submit" value="підписатися">
                 </form>
             </section>
             <!-- Contacts part -->
-            <section>
-                <h2 id="contacts">контакти</h2>
+            <section class="contacts-bar">
+                <h2 id="contacts" class="headings">контакти</h2>
                 <p>+380638415790</p>
                 <a href="https://www.facebook.com/profile.php?id=100004282141395"><img src="img/facebook.png" alt="Facebook"></a>
                 <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
@@ -138,12 +139,12 @@
                     
                 </div>
             </section>
-            <!-- Footer part -->
-            <footer>
-                <h2><a href="#servicesHeading">WeDo</a></h2>
-                <p>WeDo 2018. All rights reserved</p>
-            </footer>
         </main>
-    </div>
+        <!-- Footer part -->
+        <footer>
+            <h2><a href="#servicesHeading">WeDo</a></h2>
+            <p>WeDo 2018. All rights reserved</p>
+        </footer>
+        
 </body>
 </html>
