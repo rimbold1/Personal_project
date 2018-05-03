@@ -2,11 +2,87 @@ body {
     margin: 0 auto;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header side */
 .header-bar {
+    display: flex;
+    position: sticky;
+    top: 0;
     background-color: black;
     height: 80px;
 }
 
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+h1 a {
+    font-size: 2.47em;
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    width: 400px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav-link {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding-top: 33%;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.login-btn {
+    border: 1px solid #4dd7fa;
+    border-radius: 3px;/*радиус скругления*/
+    color: #ffffff;/*цвет текста*/
+    font-family: sans-serif;/*семейство шрифта*/
+    font-size: 0.8em;/*размер текста*/
+    line-height: 1.3;/*высота строки*/
+    padding: 7px 23px;/*внутрение отступы*/
+    text-decoration: none;/*убераем подчеркивание*/
+    transition: all 0.3s;/*плавный эффект перехода*/
+}
+
+nav ul li:hover {
+    background-color: #4dd7fa;
+}
+
+/* Intro side */
 .intro-bar {
     width: 100%;
     height: 800px;
