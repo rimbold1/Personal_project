@@ -130,30 +130,64 @@ nav ul li:hover {
 
 /* Services side */
 .services-bar {
-    height: 650px;
+    height: 600px;
     background-color: #4dd7fa;
+}
+
+.services-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
 }
 
 #services-heading {
     text-align: center;
-}
-
-.services-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    padding-top: 35px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
 }
 
 .services-item {
+    display: flex;
     width: 34%;
     margin-bottom: 2%;
+    color: white;
 }
 
+.side-text {
+    margin-left: 6px;
+}
 
+.services-image {
 
+}
 
+.order-btn {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+    background-color: #d6d6d6;
+    border-radius: 3px;/*радиус скругления*/
+    color: #ffffff;/*цвет текста*/
+    font-family: sans-serif;/*семейство шрифта*/
+    font-size: 0.8em;/*размер текста*/
+    line-height: 1.5;/*высота строки*/
+    padding: 9px 25px;/*внутрение отступы*/
+    text-align: center;
+    text-decoration: none;/*убераем подчеркивание*/
+    text-transform: uppercase;
+    transition: all 0.3s;/*плавный эффект перехода*/
+}
 
+/* Portfolio part */
 
+.portfolio-bar {
+    max-height: 900px;
+    background-color: #ebebeb;
+}
 
 
 
