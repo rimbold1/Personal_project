@@ -200,7 +200,7 @@ nav ul li:hover {
 
 .portfolio-bar {
     padding-top: 60px;
-    min-height: 900px;
+    min-height: 800px;
     background-color: #ebebeb;
 }
 
@@ -285,8 +285,15 @@ nav ul li:hover {
     margin-bottom: 60px;
 }
 
+/* Subscribe bar */
+.subscribe-bar {
+    min-height: 70px;
+    background-color: #4dd7fa;
+}
 
-
+.subscribe-container {
+    display: flex;
+}
 
 /* Headings settings */
 .headings {
