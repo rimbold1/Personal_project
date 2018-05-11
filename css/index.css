@@ -289,6 +289,9 @@ nav ul li:hover {
 .subscribe-bar {
     min-height: 70px;
     background-color: #4dd7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .subscribe-container {
