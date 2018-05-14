@@ -161,36 +161,42 @@
                 <div class="container subscribe-container">
                     <form action="https://formspree.io/ivivzu2@gmail.com" method="POST">
                         <input type="email" name="_replyto" placeholder="введіть свій e-mail">
-                        <input type="submit" value="підписатися">
+                        <input type="submit" value="підписатися" class="sub-btn">
                     </form>
                 </div>
             </section>
             <!-- Contacts part -->
             <section class="contacts-bar">
                 <h2 id="contacts" class="headings">контакти</h2>
-                <p>+380638415790</p>
-                <a href="https://www.facebook.com/profile.php?id=100004282141395"><img src="img/facebook.png" alt="Facebook" class="social-icons"></a>
-                <a href="#"><img src="img/twitter.png" alt="Twitter" class="social-icons"></a>
-                <a href="https://www.instagram.com/?hl=uk"><img src="img/instagram.png" alt="Instagram" class="social-icons"></a>
-                <a href="https://plus.google.com/u/0/118409990946572776354"><img src="img/google-plus.png" alt="Google+" class="social-icons"></a>
-                <a href="https://web.telegram.org/#/im"><img src="img/telegram.png" alt="Telegram" class="social-icons"></a>
-                <form id="form" action="https://formspree.io/ivivzu2@gmail.com" method="POST">
-                    <input type="email" name="_replyto" placeholder="e-mail адреса" required>
-                    <input type="text" name="name" placeholder="Ім'я" required>
-                    <textarea rows="10" cols="45" name="text" required>Повідомлення</textarea>
-                    <input type="submit" value="Відправити">
-                </form>
-                <div class="map">
-                    
+                <div class="container contacts-container">
+                    <div class="social-links">
+                        <p class="my-num">+380638415790</p>
+                        <a href="https://www.facebook.com/profile.php?id=100004282141395"><img src="img/facebook.png" alt="Facebook" class="social-icons"></a>
+                        <a href="#"><img src="img/twitter.png" alt="Twitter" class="social-icons"></a>
+                        <a href="https://www.instagram.com/?hl=uk"><img src="img/instagram.png" alt="Instagram" class="social-icons"></a>
+                        <a href="https://plus.google.com/u/0/118409990946572776354"><img src="img/google-plus.png" alt="Google+" class="social-icons"></a>
+                        <a href="https://web.telegram.org/#/im"><img src="img/telegram.png" alt="Telegram" class="social-icons"></a>
+                    </div>
+                    <form id="form" class="contact-form" action="https://formspree.io/ivivzu2@gmail.com" method="POST">
+                        <div class="form-inputs">
+                            <input type="email" name="_replyto" placeholder="e-mail адреса" required>
+                            <input type="text" name="name" placeholder="Ім'я" required>
+                        </div>
+                        <div class="text-submit">
+                            <textarea rows="20" cols="45" name="text" class="send-text" required>Повідомлення</textarea>
+                            <input type="submit" value="Відправити" class="send-btn">
+                        </div>
+                    </form>
                 </div>
             </section>
         </main>
         <!-- Footer part -->
         <footer>
-            <h2><a href="#servicesHeading">WeDo</a></h2>
-            <p>WeDo 2018. All rights reserved</p>
+            <div class="container">
+                <h2 class="footer-logo"><a href="#servicesHeading">WeDo</a></h2>
+                <p>WeDo 2018. All rights reserved</p>
+            </div>
         </footer>
-        <script type="text/javascript" src="libs/js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
