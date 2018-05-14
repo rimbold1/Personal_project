@@ -396,3 +396,14 @@ footer {
 .social-icons {
     width: 3%;
 }
+
+@media screen and (max-width: 800px) {
+    .services-item-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-item {
+        margin: 10px 0px;
+    }
+}
