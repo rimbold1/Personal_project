@@ -404,6 +404,7 @@ footer {
         align-items: center;
     }
     .services-item {
+        width: 45%;
         margin: 10px 0px;
     }
 }
