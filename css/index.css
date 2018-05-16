@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Pangolin');
+/*@import url('https://fonts.googleapis.com/css?family=Pangolin');*/
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 body {
     margin: 0 auto;
-    font-family: 'Pangolin', cursive;
+    font-family: 'Oswald', sans-serif;
 
 }
 
@@ -418,5 +419,13 @@ footer {
         flex-direction: column;
         align-items: center;
         margin-bottom: 15px;
+    }
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-item {
+        width: 60%;
     }
 }
