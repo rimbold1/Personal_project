@@ -30,6 +30,7 @@ body {
 
 a {
     text-decoration: none;
+
 }
 
 a:hover {
@@ -375,6 +376,7 @@ footer {
     text-transform: uppercase;
 }
 
+.headings
 .lower-headings {
     text-transform: uppercase;
     font-size: 16pt;
@@ -397,6 +399,10 @@ footer {
     width: 3%;
 }
 
+:focus {
+    outline: 0 !important;
+}
+
 @media screen and (max-width: 800px) {
     .services-item-container {
         display: flex;
@@ -406,5 +412,11 @@ footer {
     .services-item {
         width: 45%;
         margin: 10px 0px;
+    }
+    .container-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
     }
 }
